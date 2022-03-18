@@ -1,0 +1,391 @@
+@font-face {
+    font-family: uni_heavy;
+    src: url(../font/Uni-Sans-Heavy-Italic.otf);
+}
+
+@font-face {
+    font-family: uni_regular;
+    src: url(../font/Uni-Sans-Regular.ttf);
+}
+
+@font-face {
+    font-family: uni_thin;
+    src: url(../font/Uni-Sans-Thin.otf);
+}
+
+.body {
+    font-family: uni_regular;
+    /* font-weight: 400; */
+}
+
+.c_menuBar {
+    background-color: #1c1b29;
+    /* height: 650px; */
+}
+
+.c_menuBar img {
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.c_menuBar img:nth-of-type(1) {
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.c_menuBar img:nth-of-type(2) {
+    border-radius: 0px;
+}
+
+
+/* ask clyde start */
+
+.clyde_left {
+    background-color: #292841;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.verify_img_size img {
+    width: 20px;
+    height: 20px;
+}
+
+.clyde_left h3 {
+    font-size: 20px;
+}
+
+.ddn_1 {
+    margin-top: 30px !important;
+}
+
+.c_btn {
+    background-color: #292841;
+    border: none;
+    color: #fff;
+    font-size: 12px !important;
+    font-weight: 700;
+}
+
+.c_dropdown_toggle::before {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: '';
+    border-top: 0.4em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.c_dropdown_menu {
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+    list-style: none;
+    background-color: #292841 !important;
+    background-clip: padding-box;
+    border: none !important;
+    border-radius: 0.25rem;
+}
+
+.c_ddn_color {
+    color: #999b9f !important;
+}
+
+.c_ddn_color:hover {
+    color: #1e2125;
+    background-color: #423f71 !important;
+    border-radius: 20px;
+}
+
+.c_Blight {
+    margin-top: 560px !important;
+}
+
+.c_Blight img {
+    width: 100px;
+    height: 70px;
+}
+
+.c_Blight span {
+    font-weight: 700;
+    margin-bottom: -5px;
+}
+
+.c_Blight p {
+    font-size: 14px;
+}
+
+.md_button {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.md_button i {
+    margin-left: -4px;
+}
+
+.c_padding {
+    background-color: #423f71;
+    margin-left: 10px;
+    padding: 5px 0 0 0;
+    border-radius: 20px;
+}
+
+.c_margin_mute h6 {
+    font-size: 12px !important;
+    margin-top: 3px;
+    margin-left: -18px;
+    margin-right: 2px;
+}
+
+.c_margin_deafen h6 {
+    font-size: 12px !important;
+    margin-top: 2px;
+    margin-left: -10px;
+    margin-right: 2px;
+}
+
+.c_margin_setting {
+    font-size: 16px;
+    margin-top: 2px;
+    margin-left: -1px !important;
+}
+
+
+/* ask clyde end */
+
+
+/* w_question sart */
+
+.w_question {
+    background-color: #312f51;
+    color: #fff;
+}
+
+.w_question span {
+    margin-right: 10px;
+    color: #99aab5;
+}
+
+.w_question h6 {
+    border-right: 1px solid #bdbaeb;
+}
+
+.w_question p {
+    color: #bdbaeb;
+}
+
+.fa_icon {
+    margin-right: -25px;
+}
+
+.fa_icon i {
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.fa_icon i:nth-of-type(2) {
+    transform: rotate(40deg);
+}
+
+.c_form_outline input {
+    width: 100px;
+    height: 25px;
+    background-color: #292841;
+    border-radius: 8px;
+    border: navajowhite;
+    color: #fff;
+    padding: 0 0px 1px 10px;
+    font-size: 12px;
+}
+
+.c_form_outline i {
+    display: flex;
+    position: relative;
+    top: -47%;
+    left: 70%;
+    cursor: pointer;
+}
+
+.c_circle {
+    background-color: #1c1b29;
+    width: 51px !important;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.c_row2 i {
+    font-size: 30px;
+    padding: 10px 0 0 12px;
+}
+
+.c_row2 h1 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+
+.c_row2 h5 {
+    text-align: end;
+    font-size: 16px;
+    color: #6adbc6;
+    margin-bottom: -5px;
+    cursor: pointer;
+}
+
+.c_row2 hr {
+    color: #6d6b93;
+}
+
+.c_chat {
+    margin-top: 15px !important;
+}
+
+.c_chat img {
+    width: 65px;
+    height: 60px;
+}
+
+.c_chat a {
+    text-decoration: none;
+}
+
+.c_chat a:nth-of-type(1) {
+    font-weight: 300;
+    font-size: 20px;
+    color: #99d3b8;
+}
+
+.c_chat a:nth-of-type(2) {
+    color: #99aab5;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.c_chat p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.c_chat_box {
+    margin-top: 30px !important;
+    margin-left: 5px !important;
+    cursor: pointer;
+}
+
+.c_chat_box i:nth-of-type(1) {
+    font-size: 40px;
+    padding: 4px 0 0 1px;
+}
+
+.c_chat_box input {
+    width: 589px;
+    height: 50px;
+    background-color: #292841;
+    border-radius: 15px;
+    border: navajowhite;
+    color: #fff;
+    padding: 0 0px 1px 10px;
+    font-size: 12px;
+}
+
+.c_img_tab {
+    background-color: #1c1b29;
+    width: 51px !important;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.c_emoji_tab i {
+    font-size: 30px !important;
+    display: flex;
+    position: relative;
+    top: 12%;
+    left: 60%;
+}
+
+.c_img_tab i {
+    font-size: 25px !important;
+    margin-top: 8px;
+}
+
+.c_gift_tab {
+    background-color: #1c1b29;
+    width: 51px !important;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 8px;
+}
+
+.c_gift_tab i {
+    font-size: 25px !important;
+    margin-top: 8px;
+}
+
+.c_answring {
+    margin-top: 10px;
+}
+
+.c_answring i {
+    font-size: 35px;
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+.c_answring p {
+    margin-left: -15px;
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+
+/* w_question ends */
+
+
+/* clyde right start */
+
+.clyde_right {
+    background-color: #292841;
+    color: #fff;
+    padding-top: 25px;
+}
+
+.clyde_right img {
+    width: 50px;
+    height: 25px;
+    margin-right: -10px;
+}
+
+.clyde_right p {
+    display: flex;
+    flex-basis: content;
+    margin-left: inherit;
+    cursor: pointer;
+}
+
+.c_mt {
+    margin-top: -10px !important;
+}
+
+.c_p_color {
+    color: #535367;
+    font-weight: 700;
+}
+
+
+/* clyde right end */
